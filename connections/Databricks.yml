@@ -1,0 +1,5 @@
+unique_name: Databricks
+label: Databricks
+object_type: connection
+as_connection: Databricks
+schema: tpcds_10tb
