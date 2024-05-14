@@ -1,6 +1,6 @@
-unique_name: Databricks
-label: Databricks
+unique_name: wh
 object_type: connection
+label: wh
 as_connection: Databricks
 database: hive_metastore
 schema: tpcds_10tb
