@@ -4,6 +4,7 @@ label: Customer Dimension
 hierarchies:
   - unique_name: Customer Dimension
     label: Customer Dimension
+    folder: Customer Dimension
     levels:
       - unique_name: Customer Country
       - unique_name: Customer State
@@ -17,14 +18,12 @@ level_attributes:
     key_columns:
       - CA_ADDRESS_ID
     name_column: CA_CITY
-    sort_column: empty_value
   - unique_name: Customer Country
     label: Customer Country
     dataset: customer_address
     key_columns:
       - CA_COUNTRY
     name_column: CA_COUNTRY
-    sort_column: empty_value
   - unique_name: Customer County
     label: Customer County
     dataset: customer_address
@@ -33,14 +32,12 @@ level_attributes:
       - CA_COUNTRY
       - CA_STATE
     name_column: CA_COUNTY
-    sort_column: empty_value
   - unique_name: Customer Number
     label: Customer Number
     dataset: customer
     key_columns:
       - C_CUSTOMER_SK
     name_column: C_CUSTOMER_SK
-    sort_column: empty_value
   - unique_name: Customer State
     label: Customer State
     dataset: customer_address
@@ -48,7 +45,6 @@ level_attributes:
       - CA_STATE
       - CA_COUNTRY
     name_column: CA_STATE
-    sort_column: empty_value
 relationships:
   - from:
       dataset: customer
