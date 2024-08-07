@@ -1,6 +1,0 @@
-unique_name: m_SS_LIST_PRICE_distinct_est
-object_type: metric
-label: Ss List Price - DG Test
-calculation_method: estimated count distinct
-dataset: store_sales
-column: SS_LIST_PRICE
