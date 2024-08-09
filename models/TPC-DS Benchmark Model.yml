@@ -1,6 +1,7 @@
 unique_name: TPC-DS Benchmark Model
 object_type: model
 label: TPC-DS Benchmark Model
+description: My TPCDS
 aggregates:
   - unique_name: Store Sales
     label: Store Sales
@@ -34,7 +35,6 @@ aggregates:
       - m_ss_net_paid_sum
       - m_store_sales_price
       - m_ss_list_price_avg
-  
   - unique_name: Web Sales
     label: Web Sales
     attributes:
@@ -68,7 +68,6 @@ aggregates:
       - m_ws_net_paid_inc_ship_sum
       - m_purchased_amount_on_web
       - m_ws_ext_discount_amt_sum
-
 include_default_drillthrough: true
 metrics:
   - unique_name: m_purchased_amount_in_store
