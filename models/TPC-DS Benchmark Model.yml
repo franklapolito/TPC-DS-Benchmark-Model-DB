@@ -28,7 +28,7 @@ aggregates:
         dimension: Product Dimension
     metrics:
       - m_ss_net_profit_sum
-      - m_ss_quantity_sum
+      - Store Quantity Sold
       - m_ss_sales_price_avg
       - m_ss_net_paid_inc_tax_sum
       - Purchased Amount In Store
@@ -86,7 +86,7 @@ metrics:
     folder: Store Sales Measures
   - unique_name: m_ss_net_profit_sum
     folder: Store Sales Measures
-  - unique_name: m_ss_quantity_sum
+  - unique_name: Store Quantity Sold
     folder: Store Sales Measures
   - unique_name: m_ss_sales_price_avg
     folder: Store Sales Measures
