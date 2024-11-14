@@ -27,13 +27,13 @@ aggregates:
       - name: Product Brand
         dimension: Product Dimension
     metrics:
-      - m_ss_net_profit_sum
+      - Store Net Profit
       - Store Quantity Sold
-      - m_ss_sales_price_avg
-      - m_ss_net_paid_inc_tax_sum
+      - Average Store Sales Sales Price
+      - Store Net Paid Incl Tax
       - Purchased Amount In Store
-      - m_ss_net_paid_sum
-      - m_store_sales_price
+      - Store Net Paid Amount
+      - Store Sales Price
       - Average Store Sales List Price
   - unique_name: Web Sales
     label: Web Sales
@@ -59,7 +59,7 @@ aggregates:
       - name: Product Brand
         dimension: Product Dimension
     metrics:
-      - m_web_sales_sum
+      - Web Sales
       - m_ws_net_paid_inc_tax_sum
       - m_ws_net_paid_inc_ship_tax_sum
       - m_ws_net_profit_sum
@@ -80,27 +80,25 @@ metrics:
     folder: Customer Information
   - unique_name: Average Store Sales List Price
     folder: Store Sales Measures
-  - unique_name: m_ss_net_paid_inc_tax_sum
+  - unique_name: Store Net Paid Incl Tax
     folder: Store Sales Measures
-  - unique_name: m_ss_net_paid_sum
+  - unique_name: Store Net Paid Amount
     folder: Store Sales Measures
-  - unique_name: m_ss_net_profit_sum
+  - unique_name: Store Net Profit
     folder: Store Sales Measures
   - unique_name: Store Quantity Sold
     folder: Store Sales Measures
-  - unique_name: m_ss_sales_price_avg
+  - unique_name: Average Store Sales Sales Price
     folder: Store Sales Measures
-  - unique_name: m_SS_SALES_PRICE_sum
+  - unique_name: Ss Sales Price
     folder: Store Sales Measures
-  - unique_name: m_SS_SALES_PRICE_sum_2
+  - unique_name: Store Coupon Amount
     folder: Store Sales Measures
-  - unique_name: m_store_coupon_amt_sum
+  - unique_name: Store Sales Price
     folder: Store Sales Measures
-  - unique_name: m_store_sales_price
-    folder: Store Sales Measures
-  - unique_name: m_web_sales_net_paid
+  - unique_name: Web Sales Net Paid
     folder: Web Sales Measures
-  - unique_name: m_web_sales_sum
+  - unique_name: Web Sales
     folder: Web Sales Measures
   - unique_name: m_WS Row Counter_sum
     folder: Web Sales Measures

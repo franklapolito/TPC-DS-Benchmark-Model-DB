@@ -1,6 +1,6 @@
-unique_name: m_SS_SALES_PRICE_sum_2
+unique_name: Store Sales Price
 object_type: metric
-label: Ss Sales Price
+label: Store Sales Price
 calculation_method: sum
 dataset: store_sales
 column: SS_SALES_PRICE
