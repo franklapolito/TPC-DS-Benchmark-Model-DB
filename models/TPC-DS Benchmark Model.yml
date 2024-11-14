@@ -60,14 +60,14 @@ aggregates:
         dimension: Product Dimension
     metrics:
       - Web Sales
-      - m_ws_net_paid_inc_tax_sum
-      - m_ws_net_paid_inc_ship_tax_sum
+      - Web Net Paid Incl Tax
+      - Web Net Paid Incl Tax and Ship
       - m_ws_net_profit_sum
-      - m_WS Row Counter_sum
+      - Web Sales Row Counter
       - m_ws_quantity_sum
-      - m_ws_net_paid_inc_ship_sum
+      - Web Net Paid Incl Ship
       - Purchased Amount On Web
-      - m_ws_ext_discount_amt_sum
+      - Web Ext Discount Amount
 include_default_drillthrough: true
 metrics:
   - unique_name: Purchased Amount In Store
@@ -100,21 +100,21 @@ metrics:
     folder: Web Sales Measures
   - unique_name: Web Sales
     folder: Web Sales Measures
-  - unique_name: m_WS Row Counter_sum
+  - unique_name: Web Sales Row Counter
     folder: Web Sales Measures
-  - unique_name: m_WS_BILL_CUSTOMER_SK_count
+  - unique_name: Web Customer Count
     folder: Customer Information
-  - unique_name: m_ws_ext_discount_amt_sum
+  - unique_name: Web Ext Discount Amount
     folder: Web Sales Measures
-  - unique_name: m_ws_ext_ship_cost_sum
+  - unique_name: Web Ext Ship Cost
     folder: Web Sales Measures
-  - unique_name: m_ws_ext_wholesale_cost_sum
+  - unique_name: Web Ext Wholesale Cost
     folder: Web Sales Measures
-  - unique_name: m_ws_net_paid_inc_ship_sum
+  - unique_name: Web Net Paid Incl Ship
     folder: Web Sales Measures
-  - unique_name: m_ws_net_paid_inc_ship_tax_sum
+  - unique_name: Web Net Paid Incl Tax and Ship
     folder: Web Sales Measures
-  - unique_name: m_ws_net_paid_inc_tax_sum
+  - unique_name: Web Net Paid Incl Tax
     folder: Web Sales Measures
   - unique_name: m_ws_net_paid_sum
     folder: Web Sales Measures
