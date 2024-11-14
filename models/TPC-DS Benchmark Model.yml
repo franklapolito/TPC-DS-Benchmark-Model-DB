@@ -34,7 +34,7 @@ aggregates:
       - Purchased Amount In Store
       - m_ss_net_paid_sum
       - m_store_sales_price
-      - m_ss_list_price_avg
+      - Average Store Sales List Price
   - unique_name: Web Sales
     label: Web Sales
     attributes:
@@ -66,19 +66,19 @@ aggregates:
       - m_WS Row Counter_sum
       - m_ws_quantity_sum
       - m_ws_net_paid_inc_ship_sum
-      - m_purchased_amount_on_web
+      - Purchased Amount On Web
       - m_ws_ext_discount_amt_sum
 include_default_drillthrough: true
 metrics:
   - unique_name: Purchased Amount In Store
     folder: Store Sales Measures
-  - unique_name: m_purchased_amount_on_web
+  - unique_name: Purchased Amount On Web
     folder: Web Sales Measures
-  - unique_name: m_SS Row Counter_sum
+  - unique_name: Store Sales Row Counter
     folder: Store Sales Measures
-  - unique_name: m_SS_CUSTOMER_SK_count
+  - unique_name: Store Customer Count
     folder: Customer Information
-  - unique_name: m_ss_list_price_avg
+  - unique_name: Average Store Sales List Price
     folder: Store Sales Measures
   - unique_name: m_ss_net_paid_inc_tax_sum
     folder: Store Sales Measures
