@@ -62,9 +62,9 @@ aggregates:
       - Web Sales
       - Web Net Paid Incl Tax
       - Web Net Paid Incl Tax and Ship
-      - m_ws_net_profit_sum
+      - Web Net Profit
       - Web Sales Row Counter
-      - m_ws_quantity_sum
+      - Web Quantity Sold
       - Web Net Paid Incl Ship
       - Purchased Amount On Web
       - Web Ext Discount Amount
@@ -116,11 +116,11 @@ metrics:
     folder: Web Sales Measures
   - unique_name: Web Net Paid Incl Tax
     folder: Web Sales Measures
-  - unique_name: m_ws_net_paid_sum
+  - unique_name: Web Net Paid Amount
     folder: Web Sales Measures
-  - unique_name: m_ws_net_profit_sum
+  - unique_name: Web Net Profit
     folder: Web Sales Measures
-  - unique_name: m_ws_quantity_sum
+  - unique_name: Web Quantity Sold
     folder: Web Sales Measures
   - unique_name: Store Customer DCount
     folder: Store Sales Measures
