@@ -91,7 +91,6 @@ calculation_groups:
           \ / ([Product Dimension].[Product Dimension].[All], [Measures].currentMember)"
         format: Percent
         hierarchy: Product Dimension
-        template: Pct of Total
         name: Pct of Total
         description: Pct of Total
 
@@ -101,7 +100,6 @@ calculation_groups:
         expression: "([Product Dimension].[Product Dimension].CurrentMember, [Measures].currentMember)"
         format: Standard
         hierarchy: Product Dimension
-        template: Current
         is_default: true
         name: Current
 
@@ -110,7 +108,6 @@ calculation_groups:
           \ / ([Product Dimension].[Product Dimension].CurrentMember.parent, [Measures].currentMember)"
         format: Percent
         hierarchy: Product Dimension
-        template: Pct of Parent
         name: Pct of Parent
         description: Pct of Parent
 
