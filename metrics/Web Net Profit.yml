@@ -1,6 +1,6 @@
 unique_name: Web Net Profit
 object_type: metric
-label: Web Net Profit
+label: Web Net Profit - DG
 description: web_sales.ws_net_profit_sum
 calculation_method: sum
 unrelated_dimensions_handling: empty
