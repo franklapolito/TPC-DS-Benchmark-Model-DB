@@ -1,6 +1,6 @@
-unique_name: TPC-DS Benchmark Model - DB
+unique_name: TPC-DS_Benchmark_Model-DB
 object_type: catalog
-label: TPC-DS Benchmark Model - DB
+label: TPC-DS_Benchmark_Model-DB
 version: 1.0
 aggressive_agg_promotion: false
 build_speculative_aggs: false
