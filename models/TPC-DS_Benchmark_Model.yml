@@ -18,7 +18,7 @@ aggregates:
           - store_sales_Date_Dimension_Sold
       - name: Customer Country
         dimension: Customer Dimension
-      - name: I Category
+      - name: Product Category
         dimension: Product Dimension
       - name: Calendar Month
         dimension: Date Dimension
@@ -50,7 +50,7 @@ aggregates:
           - store_sales_Date_Dimension_Sold
       - name: Customer Country
         dimension: Customer Dimension
-      - name: I Category
+      - name: Product Category
         dimension: Product Dimension
       - name: Calendar Month
         dimension: Date Dimension
@@ -208,7 +208,7 @@ relationships:
         - WS_ITEM_SK
     to:
       dimension: Product Dimension
-      level: Product Dimension
+      level: Product Item
   - unique_name: store_sales_Store_Dimension
     from:
       dataset: store_sales
@@ -257,4 +257,4 @@ relationships:
         - SS_ITEM_SK
     to:
       dimension: Product Dimension
-      level: Product Dimension
+      level: Product Item

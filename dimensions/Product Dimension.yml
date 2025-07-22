@@ -33,12 +33,12 @@ hierarchies:
     filter_empty: 'yes'
     folder: Product Attributes
     levels:
-      - unique_name: I Category
+      - unique_name: Product Category
       - unique_name: Product Class
       - unique_name: Product Brand
-      - unique_name: Product Dimension
+      - unique_name: Product Item
         secondary_attributes:
-          - unique_name: d_i_color
+          - unique_name: Product Color
             label: Product Color
             dataset: item
             folder: Product Attributes
@@ -46,8 +46,16 @@ hierarchies:
               - I_COLOR
             name_column: I_COLOR
             sort_column: I_COLOR
+          - unique_name: Product Description
+            label: Product Description
+            contains_unique_names: false
+            dataset: item
+            is_unique_key: false
+            key_columns:
+              - I_ITEM_SK
+            name_column: I_ITEM_DESC
 level_attributes:
-  - unique_name: I Category
+  - unique_name: Product Category
     label: Product Category
     dataset: item
     key_columns:
@@ -68,13 +76,13 @@ level_attributes:
       - I_CLASS
       - I_CATEGORY
     name_column: I_CLASS
-  - unique_name: Product Dimension
+  - unique_name: Product Item
     label: Product Item
     dataset: item
     is_unique_key: true
     key_columns:
       - I_ITEM_SK
-    name_column: I_ITEM_DESC
+    name_column: I_PRODUCT_NAME
 modeler_metadata:
   version: '0'
   modified: 'false'
